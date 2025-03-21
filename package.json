@@ -1,13 +1,27 @@
 {
-	"name": "spotify-clone",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-		"start": "npm start --prefix backend"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Realtime Spotify Application ✨</h1>",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.483.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakorkmez/realtime-spotify-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/burakorkmez/realtime-spotify-clone/issues"
+  },
+  "homepage": "https://github.com/burakorkmez/realtime-spotify-clone#readme"
 }
